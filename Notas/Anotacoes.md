@@ -1,4 +1,4 @@
-## Blá Blá Blá
+# Anotações 
 
 ## Métodos do tipo de rota
  - GET: Buscas.
