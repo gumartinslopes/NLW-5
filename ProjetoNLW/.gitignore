@@ -1,0 +1,5 @@
+./ProjetoNLW/node_modules/
+package.json
+tsconfig.json
+yarn.lock
+ormconfig.json
