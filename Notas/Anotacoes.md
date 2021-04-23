@@ -7,7 +7,11 @@
 - Introdução a ferramentas como node, npm, yarn etc.
 - Introdução ao banco de dados.
 - Migrations.
-- Entities
+- Entities.
+- Repositories.
+- Básico de typeorm e sqlite.
+- Básico do protocolo http e websocket.
+- Básico de Socket.IO.
 
 
 ## Métodos do tipo de rota
@@ -18,7 +22,11 @@
  - PATCH: Alterar uma informação específica. 
 
  ## Comandos do yarn
-  - yarn dev -> inicia o server. 
+  - yarn dev -> inicia o server.  
+  - yarn typeorm migration:create -> cria uma migration.  
+  - yarn typeorm migrations:run -> sobe uma migration pro db.
+  - yarn typeorm migrations:revert -> refaz o que fizemos com uma migration.
+
 
 
   ## Bancos de dados
@@ -29,10 +37,11 @@
    - npm(gerenciador de pacotes do node).
    - node js(dã).
    - typeorm(pacote que integra um objeto ao banco de dados, no caso utilizamos o sqlite).
+   - sqlite.
    - typescript(linguagem utilizada).
     -yarn(gerenciador de pacotes utilizado nas aulas).
   
   ## Tipos de parâmetros
   - Route Params -> parâmetros de rota.
   - Query Params -> filtros e buscas.
-  - Body Params -> 
+  - Body Params
