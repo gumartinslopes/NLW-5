@@ -1,6 +1,6 @@
 # Anotações 
 
-## o que aprendemos até agora
+## O que aprendemos até agora
 - Básico de typescript.
 - Relação client-server.
 - Tipos de rota.
